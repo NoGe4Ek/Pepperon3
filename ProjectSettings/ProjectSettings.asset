@@ -42,8 +42,8 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1920
-  defaultScreenHeight: 1080
+  defaultScreenWidth: 1280
+  defaultScreenHeight: 720
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -99,7 +99,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 1
+  fullscreenMode: 3
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -615,7 +615,8 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: MIRROR;MIRROR_57_0_OR_NEWER;MIRROR_58_0_OR_NEWER;MIRROR_65_0_OR_NEWER;MIRROR_66_0_OR_NEWER;MIRROR_2022_9_OR_NEWER;MIRROR_2022_10_OR_NEWER;MIRROR_70_0_OR_NEWER;MIRROR_71_0_OR_NEWER;MIRROR_73_OR_NEWER;MIRROR_78_OR_NEWER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -717,7 +718,7 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 032f1225-a105-46bf-8251-c4f66f78131e
   framebufferDepthMemorylessMode: 0
